@@ -5,39 +5,39 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-var articles = {
- 'articleOne' : {
+var Articles = {
+ 'ArticleOne' : {
     title: 'Article One Balaji Ravi',
     heading: 'Article one',
     date:'Aug 8,2017',
     content:`<p>
-            This is the content for my first article,This is the content for my first article,This is the content for my first article
+            This is the content for my first Article,This is the content for my first article,This is the content for my first article
         </p>
         <p>
-            This is the content for my first article,This is the content for my first article,This is the content for my first article
+            This is the content for my first article,This is the content for my first Article,This is the content for my first article
             </p>
             <p>
-                This is the content for my first article,This is the content for my first article,This is the content for my first article
+                This is the content for my first Article,This is the content for my first article,This is the content for my first article
             </p>`
 },
- 'articleTwo' : { title: 'Article one Balaji Ravi',
+ 'ArticleTwo' : { title: 'Article one Balaji Ravi',
     heading: 'Article Two',
     date:'Aug 8,2017',
     content:`<p>
-            This is the content for my first article,This is the content for my first article,This is the content for my first article
+            This is the content for my first Article,This is the content for my first article,This is the content for my first article
         </p>
         <p>
-            This is the content for my first article,This is the content for my first article,This is the content for my first article
+            This is the content for my first Article,This is the content for my first article,This is the content for my first article
             </p>
             <p>
-                This is the content for my first article,This is the content for my first article,This is the content for my first article
+                This is the content for my first article,This is the content for my first Article,This is the content for my first article
             </p>`
 },
- 'articleThree' : { title: 'Article three Balaji Ravi',
+ 'ArticleThree' : { title: 'Article three Balaji Ravi',
     heading: 'Article Three',
     date:'Aug 8,2017',
     content:`<p>
-            This is the content for my first article,This is the content for my first article,This is the content for my first article
+            This is the content for my first Article,This is the content for my first article,This is the content for my first article
         </p>
         <p>
             This is the content for my Third article,This is the content for my Thrid article,This is the content for my Third article
